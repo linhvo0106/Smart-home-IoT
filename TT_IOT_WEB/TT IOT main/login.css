@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #907e74;
+}
+.sign-up{
+    margin-top: 80px;
+    background: #dadada;
+    width: 500px;
+    padding: 50px 40px ;
+    position: relative;
+    border-radius: 15px;
+}
+.sign-up_title{
+    font-size: 45px;
+}
+.Input_login{
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sign-up_inp{
+    font-size: 25px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    width: 100%;
+}
+.Image_at{
+    height: 80%;
+}
+.Image_lock{
+    height: 100%;
+}
+.signin_btn{
+    display: flex;
+    justify-content: space-around;
+}
+.signin_fb, .signin_gg{
+    margin-top: 20px;
+    height: 60px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+.forgot_password{
+    position: absolute;
+    margin: 20px;
+    right: 25px;
+}
+.btn--signin{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.title_or{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.Image_fb, .Image_gg{
+    height: 80%;
+    margin-right: 10px;
+}
+.title_reg{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+.Image_logo{
+    width: 30%;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.Image_SmartHome{
+    width: 100%;
+}

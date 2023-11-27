@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bedroom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <img src="Image/logo_ngang.png" alt="" class="Image_Logo">
+    </div>
+    <div class="Name_Room">
+        Bedroom
+        <a href="main.html"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+    <div class="sensor">
+        <div class="sensor_1">
+            <div class="Image_Sensor_1">
+                <img src="Image/nhietkerong.png" alt="" class="Image_Temp">
+                <div class="full_Thanh_Nhiet_Do">
+                    <div class="thanhnhietdo"></div>
+                </div>
+            </div>
+            <div class="Value_Sensor_1">
+                <div class="Value_Sensor_1_Temp">
+                    <div class="Value_Temp">--</div>
+                    <div class="Unit_Temp">°C</div>
+                </div>
+                <div class="Value_Sensor_1_Humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="Value_Humidity">--</div>
+                    <div class="Unit_Humidity">%</div>
+                </div>
+            </div>
+        </div>
+        <div class="sensor_2">
+            <div class="Image_Sensor_2">
+                <img src="Image/good.png" alt="" class="Image_Sensor_Air">
+            </div>
+            <div class="Value_Sensor_2">
+                <div class="Value value_2">--</div>
+                <div class="Unit">µg/m³</div>
+            </div>
+        </div>
+        <div class="sensor_3">
+            <div class="Image_Sensor_3">
+                <img src="Image/sun.png" alt="" class="Image_Sensor_Light">
+            </div>
+            <div class="Value_Sensor_3">
+                    <div class="Value value_3">--</div> 
+                    <div class="Unit">lux</div>
+            </div>
+        </div>
+    </div>
+    <div class="device_1">
+        <div class="Image_Device_1">
+            <img src="Image/dieuhoatat55.png" alt="" class="Device_1_OFF">
+            <img src="Image/dieuhoabat17.png" alt="" class="Device_1_ON hiden">
+        </div>
+        <button class="BTNDevice BTN_Device_1_OFF set_btn">OFF</button>
+        <button class="BTNDevice BTN_Device_1_ON">ON</button>
+        <div class="Control_Device_1 hiden">
+            <div class="Value_device_1">
+                <p class="text_value_device_1">23 °C</p>
+            </div>
+            <i class="fa-solid fa-chevron-up"></i>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </div>
+    <div class="device_2">
+        <div class="Image_Device_2">
+            <img src="Image/ledoff.png" alt="" class="Device_2_OFF">
+            <img src="Image/ledon1.png" alt="" class="Device_2_ON hiden">
+        </div>
+        <input type="range" name="a" min="1" max="100" value="0" class="thanh_truot hiden">
+        <button class="BTNDevice BTN_Device_2_OFF set_btn">OFF</button>
+        <button class="BTNDevice BTN_Device_2_ON">ON</button>
+    </div>
+    <div class="device_3">
+        <div class="Image_Device_3">
+            <img src="Image/tvoff.png" alt="" class="Device_3_OFF">
+            <img src="Image/tv_on.png" alt="" class="Device_3_ON hiden">
+        </div>
+        <button class="BTNDevice BTN_Device_3_OFF set_btn">OFF</button>
+        <button class="BTNDevice BTN_Device_3_ON">ON</button>
+    </div>
+    <div class="device_4">
+        <div class="Image_Device_4">
+            <img src="Image/buitat_1.png" alt="" class="Device_4_OFF">
+            <img src="Image/buimo.png" alt="" class="Device_4_ON hiden">
+        </div>
+        <button class="BTNDevice BTN_Device_4_OFF set_btn">OFF</button>
+        <button class="BTNDevice BTN_Device_4_ON">ON</button>
+    </div>
+    <div class="footer">
+        <div class="wrapper">
+            <div class="icon facebook">
+               <i><a class="fab fa-facebook-f" href="https://web.facebook.com/profile.php?id=100023060713820"> </a></i>
+                <span class="tooltip">Facebook</span>
+            </div>
+            <div class="icon github">
+                <a href="https://github.com/linhvo0106"><i class="fab fa-github"></i></a>
+                <span class="tooltip">Github</span>
+            </div>
+            <div class="icon twitter">
+                <i class="fab fa-twitter"></i>
+                <span class="tooltip">Twitter</span>
+            </div>
+            <div class="icon instagram">
+                <i class="fab fa-instagram"></i>
+                <span class="tooltip">Instagram</span>
+            </div>
+            <div class="icon youtube">
+                <a href="https://www.youtube.com/channel/UCb2b9JOEtASCVXuu1YNIzzg"> <i class="fab fa-youtube"></i></a>
+                <span class="tooltip">Youtube</span>
+            </div>
+        </div>
+        <p class="copyright">Powered by <a href=>LTL Team</a></p>
+    </div>
+</div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+<script src="bedroom.js"></script>
+</html>

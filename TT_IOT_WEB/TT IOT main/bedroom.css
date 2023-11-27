@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mooli";
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #907e74;
+    text-align: center;
+}
+.Image_Logo{
+    height: 100%;
+}
+/*Name_Room*/
+.Name_Room{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    padding: 1.5%;
+    font-weight: bolder;
+    color: white;
+    background-color: #907e74;
+    z-index: 9999;
+}
+.setcontrol{
+    position: fixed;
+    top: 0;
+}
+.fa-arrow-left{
+    left: 2%;
+    font-size: 50px;
+    position: absolute;
+    color: white;
+}
+/*Sensor*/
+.sensor{
+    display: flex;
+    background-color: #eac6aa;
+}
+.sensor_1{
+    height: 100vh;
+    width: 33.33%;
+    border: 3px solid black;
+    position: relative;
+}
+.Image_Sensor_1{
+    top: 50%;
+    width: 40%;
+    position: relative;
+    transform: translate(0, -50%);
+}
+.Image_Temp{
+    width: 100%;
+}
+.full_Thanh_Nhiet_Do{
+    width: 10%;
+    height: 66.5%;
+    position: absolute;
+    top: 12.5%;
+    left: 45.5%;
+}
+.thanhnhietdo{
+    width: 100%;
+    height: 65.5%;
+    position: absolute;
+    background: linear-gradient(90deg, white 10%,#8B0000 60%);
+    bottom: 0;
+}
+.Value_Sensor_1{
+    color: black; /*Thay màu chữ chỗ này*/
+    top: 30%;
+    right: 15%;
+    position: absolute;
+}
+.Value_Sensor_1_Temp{
+    display: flex;
+}
+.Value_Sensor_1_Humidity{
+    display: flex;
+    font-size: 3vw;
+    align-items: center;
+    margin-top: 10%;
+}
+.Value_Humidity{
+    margin-left: 5%;
+}
+.Value_Temp, .Value{
+    font-size:8vw;
+}
+.Unit_Temp, .Unit{
+    font-size: 3vw;
+}
+
+.sensor_2{
+    height: 100vh;
+    width: 33.33%;
+    border: 3px solid black;
+    position: relative;
+}
+.Image_Sensor_2, .Image_Sensor_3{
+    width: 80%;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.Image_Sensor_Air, .Image_Sensor_Light{
+    width: 100%;
+}
+.Value_Sensor_2, .Value_Sensor_3{
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%);
+    display: flex;
+    position: absolute;
+}
+.sensor_3{
+    height: 100vh;
+    width: 33.33%;
+    border: 3px solid black;
+    position: relative;
+}
+/*Device*/
+.device_1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #b88975;
+}
+.Device_1_OFF{
+    width: 45%;
+    top: 20%;
+    left: 0.1%;
+    position: absolute;
+}
+.Device_1_ON{
+    width: 49%;
+    top: 20%;
+    transform: translate(-15px);
+    position: absolute;
+}
+.BTNDevice{
+    width: 9%;
+    height: 9%;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    border-radius: 10px;
+    font-size: 2vw;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.BTN_Device_1_ON, .BTN_Device_2_ON, .BTN_Device_3_ON, .BTN_Device_4_ON{
+    left: 66%;
+}
+.set_btn{
+    width: 10%;
+    height: 10%;
+    top: 14.5%;
+    background: red;
+    color: white;
+}
+.Control_Device_1{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+.Value_device_1{
+    background: wheat;
+    width: 45%;
+    height: 20%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 15px;
+    font-size: 3vw;
+    border: 5px solid black;
+}
+.text_value_device_1{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.fa-chevron-up, .fa-chevron-down{
+    padding: 2% 10%;
+    font-size: 5vw;
+    display: flex;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    background: rgb(208, 208, 208);
+    border: 3px solid black;
+}
+.fa-chevron-down{
+    top: 45%;
+}
+.fa-chevron-up:active{
+    color: aqua;
+}
+.fa-chevron-down:active{
+    color: aqua;
+}
+.device_2{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background: #000d2f;
+    position: relative;
+}
+.Device_2_OFF, .Device_2_ON{
+    width: 45%;
+    position: absolute;
+}
+.thanh_truot{
+    width: 330px;
+    position: absolute;
+    top: 40%;
+    right: 250px;
+}
+.device_3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #b88975;
+}
+.Device_3_OFF, .Device_3_ON{
+    top: 20%;
+    width: 45%;
+    position: absolute;
+}
+.device_4{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background: #000d2f;
+    position: relative;
+}
+.Device_4_OFF, .Device_4_ON{
+    width: 45%;
+    position: absolute;
+}
+/*Footer*/
+
+.hiden{
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+	--facebook-color: #3b5999;
+	--instagram-color: #e1306c;
+	--youtube-color: #de463b;
+	--twitter-color: #46c1f6;
+	--github-color: #333;
+}
+
+.footer{
+    width: 100%;
+    height: 40vh;
+    background: #dadada;
+    position: relative;
+}
+
+.wrapper {
+	display: flex;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%);
+    position: absolute;
+}
+
+.icon {
+	margin: 0 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.icon i {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.icon .tooltip {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+	padding: 10px 18px;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 25px;
+	opacity: 0;
+	pointer-events: none;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.icon .tooltip:before {
+	position: absolute;
+	content: '';
+	height: 15px;
+	width: 15px;
+	left: 50%;
+	bottom: -6px;
+	transform: translateX(-50%) rotate(45deg);
+}
+
+.tooltip,
+.icon i {
+	transition: 0.3s;
+}
+
+.icon:hover .tooltip {
+	opacity: 1;
+	pointer-events: auto;
+	top: -70px;
+}
+
+.icon:hover i {
+	color: white;
+}
+
+.facebook .tooltip:before,
+.facebook:hover i,
+.facebook .tooltip {
+	background: var(--facebook-color);
+}
+.github .tooltip:before,
+.github:hover i,
+.github .tooltip {
+	background: var(--github-color);
+}
+.twitter .tooltip:before,
+.twitter:hover i,
+.twitter .tooltip {
+	background: var(--twitter-color);
+}
+.instagram .tooltip:before,
+.instagram:hover i,
+.instagram .tooltip {
+	background: var(--instagram-color);
+}
+.youtube .tooltip:before,
+.youtube:hover i,
+.youtube .tooltip {
+	background: var(--youtube-color);
+}
+.copyright{
+    left: 50%;
+    font-size: 24px;
+    top: 70%;
+    transform: translate(-50%);
+    position: absolute;
+}
