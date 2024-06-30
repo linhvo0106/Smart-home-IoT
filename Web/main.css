@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mooli";
+}
+body{
+    background-color: #b88975;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    background-color: #907e74;
+}
+.Image_Logo{
+    left: 2%;
+    top: 50%;
+    transform: translate(0, -50%);
+    position: absolute;
+    height: 80%;
+}
+.login{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_login{
+    font-size: 25px;
+    left: 50%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.Image_login{
+    position: absolute;
+    left: 20%;
+    height: 50%;
+}
+.login:hover{
+    background: #dadada;
+}
+.control_header{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_control{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.home{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 35%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_home{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.data{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_data{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* control */
+.control{
+    margin-top: 3%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+}
+.room{
+    height: 100%;
+    width: 23%;
+    border-radius: 15px;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    background: #dadada;
+}
+.Image_Room{
+    object-fit: cover;
+    width: 80%;
+    position: absolute;
+    transition: 0.75s;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    border-radius: 10px;
+}
+.name_room{
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 2);  
+}
+.room_1:hover .Image_Room{
+    width: 100%;
+    height: 100%;
+}
+.room_2:hover .Image_Room{
+    width: 100%;
+    height: 100%;
+}
+.room_3:hover .Image_Room{
+    width: 100%;
+    height: 100%;
+
+}
+.room_4:hover .Image_Room{
+    width: 100%;
+    height: 100%;
+}

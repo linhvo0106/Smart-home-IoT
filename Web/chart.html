@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chart.css">
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+<body>
+    <div class="header">
+        <img src="Image/logo_main.png" alt="" class="Image_Logo">
+        <div class="data">
+            <a class="text_data" href="chart.html">Data</a>
+        </div>
+        <div class="control_header">
+            <a class="text_control" href="main.html">Control</a>
+        </div>
+        <a class="login" href="login.html">
+            <img class="Image_login" src="Image/user_2.png" alt="">
+            <div class="text_login">
+                Login
+            </div>
+        </a>
+        <div class="home">
+            <a class="text_home" href="home.html">
+                Home
+            </a>
+        </div>
+    </div>
+    <div class="option">
+        <a class="room livingroom" href="">
+            <div class="text_room text_livingroom">
+                Livingroom
+            </div>
+        </a>
+        <a class="room bedroom" href="">
+            <div class="text_room">
+                Bedroom
+            </div>
+        </a>
+        <a class="room kitchen" href="">
+            <div class="text_room">
+                Kitchen
+            </div>
+        </a>
+        <a class="room garden" href="">
+            <div class="text_room">
+                Garden
+            </div>
+        </a>
+        <input class="datatime" id="datetime" type="date">
+    </div>
+    <div class="information" id="information" style="display: none;">
+        <div class="index_chart">
+            <canvas id="bar-chart-bedroom" style="display: none;"></canvas>
+            <p class="chart-name" id="name-bedroom" style="display: none;">The chart shows the temperature and humidity of the bedroom during the day</p>
+            <canvas id="bar-chart-bedroom-1" style="display: none;"></canvas>
+            <p class="chart-name" id="name-bedroom-1" style="display: none;">The chart shows the dust concentration of the bedroom during the day</p>
+            <canvas id="bar-chart-bedroom-2" style="display: none;"></canvas>
+            <p class="chart-name" id="name-bedroom-2" style="display: none;">The chart shows the light intensity of the bedroom during the day</p>
+        </div> 
+        <div class="index_chart">
+            <canvas id="bar-chart-kitchen" style="display: none;"></canvas>
+            <p class="chart-name" id="name-kitchen" style="display: none;">The chart shows the temperature and humidity of the kitchen during the day</p>
+            <canvas id="bar-chart-kitchen-1" style="display: none;"></canvas>
+            <p class="chart-name" id="name-kitchen-1" style="display: none;">The chart shows the gas concentration of the kitchen during the day</p>
+            <canvas id="bar-chart-kitchen-2" style="display: none;"></canvas>
+            <p class="chart-name" id="name-kitchen-2" style="display: none;">The chart shows the light intensity of the kitchen during the day</p>
+        </div> 
+        <div class="index_chart">
+            <canvas id="bar-chart-livingroom" style="display: none;"></canvas>
+            <p class="chart-name" id="name-livingroom" style="display: none;">The chart shows the temperature and humidity of the livingroom during the day</p>
+            <canvas id="bar-chart-livingroom-1" style="display: none;"></canvas>
+            <p class="chart-name" id="name-livingroom-1" style="display: none;">The chart shows the dust concentration of the livingroom during the day</p>
+            <canvas id="bar-chart-livingroom-2" style="display: none;"></canvas>
+            <p class="chart-name" id="name-livingroom-2" style="display: none;">The chart shows the light intensity of the livingroom during the day</p>
+        </div> 
+        <div class="index_chart">
+            <canvas id="bar-chart-garden" style="display: none;"></canvas>
+            <p class="chart-name" id="name-garden" style="display: none;">The chart shows the temperature and humidity of the garden during the day</p>
+            <canvas id="bar-chart-garden-1" style="display: none;"></canvas>
+            <p class="chart-name" id="name-garden-1" style="display: none;">The chart shows the garden's rainfall during the day</p>
+            <canvas id="bar-chart-garden-2" style="display: none;"></canvas>
+            <p class="chart-name" id="name-garden-2" style="display: none;">The chart shows the light intensity of the garden during the day</p>
+        </div> 
+    </div>
+</body>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script> 
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+<script src="chart.js"></script>
+</html>

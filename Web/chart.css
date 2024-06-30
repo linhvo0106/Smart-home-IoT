@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mooli";
+}
+body{
+    background-color: #eac6aa;
+}
+.header{
+    width: 100%;
+    height: 15vh;
+    position: relative;
+    background-color: #907e74;
+}
+.Image_Logo{
+    left: 2%;
+    top: 50%;
+    transform: translate(0,-50%);
+    position: absolute;
+    height: 80%;
+}
+.login{
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_login{
+    font-size: 25px;
+    left: 50%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.Image_login{
+    position: absolute;
+    left: 20%;
+    height: 50%;
+}
+.login:hover{
+    background: #dadada;
+}
+
+.control_header{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 15%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_control{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.data{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_data{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.home{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    right: 35%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+.text_home{
+    font-size: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.option{
+    width: 20%;
+    height: 85vh;
+    background: #dadada;
+    position: absolute;
+}
+.information{
+    width: 80%;
+    left: 20%;
+    height: 85vh;
+    position: absolute;
+}
+.text_room{
+    font-size: 27px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.room {
+    transition: background-color 0.5s;
+}
+
+.text_room {
+    transition: color 0.5s;
+}
+
+.active .text_room {
+    color: white;
+}
+
+.active {
+    background-color: red;
+}
+.chart-name {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 1%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.livingroom{
+    height: 15%;
+    top: 10%;
+    width: 100%;
+    border: 1px solid black;
+    position: absolute;
+}
+.bedroom{
+    height: 15%;
+    width: 100%;
+    top: 25%;
+    border: 1px solid black;
+    position: absolute;
+}
+.kitchen{
+    height: 15%;
+    width: 100%;
+    top: 40%;
+    border: 1px solid black;
+    position: absolute;
+}
+.garden{
+    height: 15%;
+    width: 100%;
+    top: 55%;
+    border: 1px solid black;
+    position: absolute;
+}
+.datatime{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 25px;
+}
+.index_chart{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
