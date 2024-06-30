@@ -1,2 +1,2 @@
 # Smart-home-IoT
-Kết quả môn TT Kiến trúc và Giao thức IoT của nhóm sinh viên trường ĐH sư phạm kĩ thuật TP. HCM gồm Võ Ngọc Linh, Mai Đông Thức và Mã Quang Lộc.
+A web application that helps manage sensors such as temperature sensors, light sensors, air quality sensors, etc., thereby controlling devices in the home.
